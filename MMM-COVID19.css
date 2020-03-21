@@ -6,18 +6,22 @@
   font-size: 20px;
 }
 
+.covid td.country {
+  font-size: 11px;
+}
+
 .covid td.number {
-  text-align: right
+  font-size: 14px;
 }
 
 .covid td.recovered {
-  color: green
+  color: green;
 }
 
 .covid td.deaths {
-  color: red
+  color: red;
 }
 
 .covid td.active {
-  color: orange
+  color: orange;
 }
