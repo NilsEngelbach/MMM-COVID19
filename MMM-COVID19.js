@@ -103,6 +103,7 @@ Module.register("MMM-COVID19", {
             activeCases = value["active_cases"];
 
         countryNameCell.innerHTML = countryName
+        countryNameCell.className = 'country'
         confirmedCell.className = 'number confirmed'
         confirmedCell.innerHTML = cases
         deathsCell.className = 'number deaths'
